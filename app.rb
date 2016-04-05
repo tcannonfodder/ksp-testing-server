@@ -31,11 +31,11 @@ def mock_response
     if time?
       load_response("time.json")
     elsif response_1?
-      load_response("response-target-vessel-1.json")
+      load_response("response-target-body-1.json")
     elsif response_2?
-      load_response("response-target-vessel-2.json")
+      load_response("response-target-body-2.json")
     elsif response_3?
-      load_response("response-target-vessel-3.json")
+      load_response("response-target-body-3.json")
     else
       status 404 and return
     end
